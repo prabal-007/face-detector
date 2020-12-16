@@ -3,7 +3,7 @@ import cv2
 # load the cascade
 face_cascade = cv2CascadeClassifier('haarcascade_frontalface_default.xml')
 # Read the input image
-img = cv2.imread(r'')
+img = cv2.imread(r'messi.jpg')
 
 # convert into grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
